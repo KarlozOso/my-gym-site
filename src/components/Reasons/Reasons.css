@@ -1,0 +1,16 @@
+.reasons{
+  padding: 0 2rem;
+  display: flex;
+  grid-template: 2rem;
+  
+}
+
+.left-r{
+  flex: 1 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.right-r{
+  flex: 1 1;
+}
