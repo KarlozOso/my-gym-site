@@ -18,6 +18,7 @@
   
   .header-menu>li{
     cursor: pointer;
+    font-size: 1.1rem;
   }
   
   .header-menu>li:hover{

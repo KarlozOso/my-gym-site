@@ -59,11 +59,11 @@
   }
   
   .hero-text>div:nth-of-type(3){
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
     text-transform: none;
     letter-spacing: 1px;
-    width: 80%
+    width: 70%
   }
   
   .figures{
