@@ -70,3 +70,17 @@
 .plans>:nth-child(2)>button{
     color: orange;
 }
+
+.plans-blur1{
+    width: 32rem;
+  height: 23rem;
+  left: 0;
+  top: 6rem;
+}
+
+.plans-blur2{
+    width: 32rem;
+  height: 23rem;
+  right: 0;
+  top: 6rem;
+}

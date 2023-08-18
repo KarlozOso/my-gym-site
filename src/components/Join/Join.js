@@ -8,7 +8,7 @@ const Join = () => {
 const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_j9xiiem', 'template_sgtw9jb', form.current, 'zK60Pt7Q8_KH6RxjF')
+    emailjs.sendForm('service_ws3wcqq', 'template_7jhnjec', form.current, 'zK60Pt7Q8_KH6RxjF')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -30,7 +30,7 @@ const sendEmail = (e) => {
     </div>
     <div className='right-j'>
     <form ref={form} action='' className='email-container' onSubmit={sendEmail}>
-    <input type='email' name='user-email' placeholder='Enter your E-mail'></input>
+    <input type='email' name='user_email' placeholder='Enter your E-mail'></input>
       <button className='btn btn-j'>JOIN NOW</button>
     </form>
     </div>
