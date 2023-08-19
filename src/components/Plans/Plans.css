@@ -84,3 +84,12 @@
   right: 0;
   top: 6rem;
 }
+
+@media screen and (max-width: 768px){
+  .plans{
+    flex-direction: column;
+  }
+  .plans>:nth-child(2){
+    transition: none;
+  }
+}
