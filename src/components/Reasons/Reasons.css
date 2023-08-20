@@ -10,7 +10,7 @@
   flex: 1 1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: .5rem;
   grid-auto-rows: 1fr;
 }
 
@@ -92,7 +92,7 @@
   width: 5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
  .Reasons{
    flex-direction: column;
  }
@@ -102,14 +102,13 @@
     overflow: hidden;
     margin: auto;
     align-items: center;
-    padding-left: 2.2rem;
   }
  .left-r>:nth-child(1){
-    width: 7rem;
-    height: 17rem;
-  }
+    width: 6rem;
+    height: 16.2rem;
+    }
   .left-r>:nth-child(2){
-    width: 15rem;
+    width: 14.5rem;
     height: 10rem;
   }
   .left-r>:nth-child(3){
@@ -118,6 +117,6 @@
   }
   .left-r>:nth-child(4){
     width: 7rem;
-    height: 6rem;
+    height: 5.65rem;
   }
 }
