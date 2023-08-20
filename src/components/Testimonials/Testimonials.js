@@ -10,9 +10,9 @@ const Testimonials = () => {
   const [selected, setSelected] = useState(0)
   const tLength = testimonialsData.length
   return (
-    <div className='testimonials' id='testimonials'>
+    <div className='testimonials'>
       <div className='left-t'>
-        <span>Testimonials</span>
+        <span id='testimonials'>Testimonials</span>
         <span className='stroke-text'>What they</span>
         <span>Say About Us</span>
         <motion.span
@@ -49,8 +49,8 @@ const Testimonials = () => {
       
       src={testimonialsData[selected].image} alt="" />
       <div className="arrows">
-      <img src={leftArrow} alt="" onClick={()=> selected===0?setSelected(tLength -1) : setSelected((prev)=> prev -1)}/>
-      <img src={rightArrow} alt="" onClick={() =>
+      <img className="left-arrow" src={leftArrow} alt="" onClick={()=> selected===0?setSelected(tLength -1) : setSelected((prev)=> prev -1)}/>
+      <img className="right-arrow" src={rightArrow} alt="" onClick={() =>
     selected === tLength -1
 ? setSelected (0) 
 : setSelected((prev) => prev + 1)} />

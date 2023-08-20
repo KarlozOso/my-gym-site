@@ -74,7 +74,7 @@
 }
 
 .arrows>img{
-width: 1.5rem;
+width: 1.8rem;
 cursor: pointer;
 }
 
@@ -82,9 +82,24 @@ cursor: pointer;
   .testimonials{
     flex-direction:column;
   }
+  .left-t>:nth-child(1){
+    line-height: 0rem;
+    margin-bottom: 1rem;
+  }
+
   .left-t>:nth-child(2),
 .left-t>:nth-child(3){
   font-size: xx-large;
+  line-height: 0px;
+  margin-bottom: 0rem;
+  font-weight: bold;
+}
+
+.left-t>:nth-child(4)
+{
+  line-height: 2.5rem;
+  margin-bottom: 0rem;
+  font-style: italic;
 }
   .right-t{
     display: flex;
@@ -102,11 +117,22 @@ cursor: pointer;
     right: 0;
     position: relative;
     align-items: center;
+  }
 
     .right-t>:last-child{
       display: block;
       bottom: 0;
       left: 0;
-    }
+      object-position: center;
+      align-items: center;
+  }
+
+  .left-arrow{
+    padding-right: 1rem;
+  }
+
+  .right-arrow{
+    padding-left: 1rem;
+    padding-bottom: 1px;
   }
 }
