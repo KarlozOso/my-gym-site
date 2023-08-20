@@ -19,15 +19,15 @@ const Reasons = () => {
         <img src={image4} alt='' />
       </div>
       <div className='right-r'>
-        <span>some reasons</span>
+        <span>why choose us?</span>
         <div>
-          <span className='stroke-text'>Why</span>
-          <span> choose us?</span>
+          <span className='stroke-text'>THE</span>
+          <span> REASONS</span>
         </div>
         <div className='details-r'>
           <div>
             <img src={tick} alt='' />
-            <span>OVER 140+ COACH</span>
+            <span>OVER 140+ COACHs</span>
           </div>
           <div>
             <img src={tick} alt='' />
@@ -35,11 +35,11 @@ const Reasons = () => {
           </div>
           <div>
             <img src={tick} alt='' />
-            <span>1 FREE PROGRAM FOR NEW MEMBER</span>
+            <span>1 FREE PROGRAM FOR NEW MEMBERS</span>
           </div>
           <div>
             <img src={tick} alt='' />
-            <span> RELIABLE PARTERS</span>
+            <span> RELIABLE PARTNERS</span>
           </div>
         </div>
         <span style={{ color: 'var(--gray)', fontWeight: 'normal', fontSize: "2rem" }}>
